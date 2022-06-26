@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    private fun clickDatePicker(){
+    fun clickDatePicker(){
 
         val myCalendar =Calendar.getInstance()
         val year =myCalendar.get(Calendar.YEAR)
